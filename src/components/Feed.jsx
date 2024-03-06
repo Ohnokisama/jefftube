@@ -20,7 +20,7 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <p className='absolute p-3 bg-[#333] text-white text-center border-t-2 border-[#3d3d3d] bottom-0 center w-full hidden md:block'>Copyright &copy; 2023. JayTube</p>
+        <p className='absolute p-3 bg-[#333] text-white text-center border-t-2 border-[#3d3d3d] bottom-0 center w-full hidden md:block'>Copyright &copy; {new Date().getFullYear()}. JeffTube</p>
       </div>
       <div className='w-full md:w-[82%] h-[100vh] overflow-y-auto no-scrollbar ml-0 px-4 md:px-8 pt-0 md:pt-28'>
         <h1 className="font-bold text-3xl md:text-4xl text-white mb-4">{selectedCategory} <span className='text-red-600'>Videos</span></h1>
